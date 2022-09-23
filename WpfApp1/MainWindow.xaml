@@ -35,6 +35,7 @@
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" FontFamily="Franklin Gothic Medium" Grid.Row="2" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" FontFamily="Franklin Gothic Medium" Grid.Row="2" MouseDown="TextBlock_MouseDown"/>
         <TextBlock HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36" FontFamily="Franklin Gothic Medium" Grid.Row="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" Grid.Row="3" TextWrapping="Wrap" Text="TextBlock" FontSize="24" Grid.ColumnSpan="2" MouseDown="TimeTextBlock_MouseDown" Margin="35,74,41,7" Grid.Column="1"/>
 
     </Grid>
 </Window>
